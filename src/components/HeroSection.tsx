@@ -32,7 +32,7 @@ const DownloadPage: React.FC = () => {
       {/* ✅ New Caption Image at Top */}
       <div className="w-full max-w-2xl mb-6">
         <img
-          src="/caption.png"
+          src="/Capture.PNG"
           alt="Caption"
           className="w-full h-auto rounded-lg shadow-lg"
         />
