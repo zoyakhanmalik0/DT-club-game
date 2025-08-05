@@ -38,7 +38,7 @@ const Footer = () => {
         {/* Copyright */}
         <div className="text-center">
           <p className="text-gray-500 text-sm">
-            &copy; 2025 <span className="text-orange-600 font-medium">111 Patti Guide</span> | Crafted by <span className="text-orange-600 font-medium">11PattiGuide</span>
+            &copy; 2025 <span className="text-orange-600 font-medium">Dragon Tiger Club</span> | Crafted by <span className="text-orange-600 font-medium">Dragon Tiger Club</span>
           </p>
         </div>
       </div>
