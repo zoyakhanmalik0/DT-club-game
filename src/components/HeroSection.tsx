@@ -10,16 +10,16 @@ interface DownloadButton {
 const DownloadPage: React.FC = () => {
   // ✅ Safe, generic, policy-compliant game links
   const buttons: DownloadButton[] = [
-    { label: '3 Patti RS', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
-    { label: '3 Patti Dragon Tiger', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
-    { label: '3 Patti DTC', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
-    { label: '3 Patti Best Bet', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
-    { label: 'New 3 Patti Game', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
-    { label: 'Best 3 Patti ', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
-    { label: 'New teen Patti game', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
-    { label: 'Top 3 Patti ', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
-    { label: '3 Patti 100k Win', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
-    { label: '3 Patti Big Win', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: 'Download 3 Patti Best Bet', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: 'Download 3 Patti Dragon Tiger', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
+    { label: 'Download 3 Patti DTC', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
+    { label: 'Download 3 Patti RS', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: 'Download New 3 Patti Game', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
+    { label: 'Download Best 3 Patti ', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
+    { label: 'Download New teen Patti game', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: 'Download Top 3 Patti ', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
+    { label: 'Download 3 Patti 100k Win', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
+    { label: 'Download 3 Patti Big Win', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
   ];
 
   const greenGradient =
