@@ -10,17 +10,16 @@ interface DownloadButton {
 const DownloadPage: React.FC = () => {
   // ✅ Safe, generic, policy-compliant game links
   const buttons: DownloadButton[] = [
-    { label: 'Download 3 Patti DragonTiger Official', href: 'https://3pattirs.net/?from_gameid=5806525&channelCode=100000' },
-    { label: 'Download 3 Patti Teen Official ', href: 'https://3pattiteen.com/?from_gameid=8307610&channelCode=100000' },
-    { label: 'Download Flying Chess Official', href: 'https://flyingchess.com/?from_gameid=8307610&channelCode=100000' },
-    { label: 'Download 3 Patti DTC', href: 'https://dragontigerclub.com/?from_gameid=5806525&channelCode=100000' },
-    { label: 'Download 3 Patti Blue', href: 'https://3pattiteen.com/?from_gameid=8307610&channelCode=100000' },
-    { label: 'Download 3 Patti Crown', href: 'https://3pattirs.net/?from_gameid=5806525&channelCode=100000' },
-    { label: 'Download 3 Patti Gold', href: 'https://3pattiteen.com/?from_gameid=8307610&channelCode=100000' },
-    { label: 'Download 3 Patti Land ', href: 'https://3pattirs.net/?from_gameid=5806525&channelCode=100000' },
-    { label: 'Download 3 Patti OK', href: 'https://3pattiteen.com/?from_gameid=8307610&channelCode=100000' },
-    { label: 'Download 3 Patti Loot', href: 'https://3pattirs.net/?from_gameid=5806525&channelCode=100000' },
-    { label: 'Download 3 Patti Ludo', href: 'https://3pattiteen.com/?from_gameid=8307610&channelCode=100000' },
+    { label: '3 Patti RS', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: '3 Patti Dragon Tiger', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
+    { label: '3 Patti DTC', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
+    { label: '3 Patti Best Bet', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: 'New 3 Patti Game', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
+    { label: 'Best 3 Patti ', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
+    { label: 'New teen Patti game', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
+    { label: 'Top 3 Patti ', href: 'https://3pattirs.net/?from_gameid=5129601&channelCode=5129078' },
+    { label: '3 Patti 100k Win', href: 'https://3pattirs.net/?from_gameid=5129078&channelCode=5128469' },
+    { label: '3 Patti Big Win', href: 'https://3pattirs.net/?from_gameid=5712912&channelCode=5129078' },
   ];
 
   const greenGradient =
